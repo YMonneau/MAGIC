@@ -52,18 +52,24 @@ off
 
 type the following command to run automatic assignment:
 
->python Magic_4.0 start.txt
+>python Magic_1.0 start.txt
 
 ############## Output files:
 
 The generated folder contains three different folder:
 
-- input folder for your record
-- output folder, continuously edited, containing the current assigned 2D and 3D peaklist 
-      along with the mapping file to visualize onto the pdb structure the quality 
-      of the running assignment
-- run folder, which contains all intermediate files used by the software
+- 'input' folder that includes all input files for your personal record
+- 'output' folder, continuously edited, containing the currently assigned 2D and 3D peaklist 
+               along with the mapping file to visualize onto the pdb structure the quality 
+               of the issued assignment
+- 'run' folder, which contains all intermediate files used by the software
 
+and five different files:
+- a 'log' file reporting the different step the software is passing through
+- a 'methyl list' file containing the list of all methyls
+- a 'methyl connection list' containing all the selected methyl-methyl connection
+- a 'peak list' file containing the list of all peaks
+- a 'peak connection list' containing all the selected peak-peak connections 
 _________________________________________________________________________________________
 
 ############## TRIALS:
